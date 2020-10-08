@@ -1,0 +1,23 @@
+.firstMountain img{
+
+	-webkit-transition:all .7s ease; /* Safari y Chrome */
+	-moz-transition:all .7s ease; /* Firefox */
+	-o-transition:all .7s ease; /* IE 9 */
+	-ms-transition:all .7s ease; /* Opera */
+
+}
+
+.firstMountain:hover img{
+	-ms-transform: scale(.99); /* IE 9 */
+	-webkit-transform:scale(1.25);
+	-moz-transform:scale(1.25);
+	-ms-transform:scale(1.25);
+	-o-transform:scale(1.25);
+	transform:scale(1.25)
+}
+.firstMountain {/*Ancho y altura son modificables al requerimiento de cada uno*/
+
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
