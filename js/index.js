@@ -1,5 +1,6 @@
 $(document). ready(()=>{
 
+//text animated 
 var GrayscaleSmall = document.querySelector('#GrayscaleSmall')
 var text2 = GrayscaleSmall.innerHTML;
 
@@ -17,13 +18,20 @@ function typeWriter(){
 }
 typeWriter();
 
+
 // fadein
 $(".containerFadeIn").hide().delay("slow").fadeIn(600);
 $(".js-scroll-trigger").hide().delay("slow").fadeIn(600)
 
+//scrollreveal libraryes for animations
+const sr = ScrollReveal();
 
+sr.reveal('.container-Comercial',{
+	distance: '250px',
+	delay: 500,
+	reset: true
 
-	
+})
 
 // button toggle
 	$("#buttonToggle").click(()=>{

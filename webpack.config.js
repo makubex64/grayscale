@@ -22,7 +22,8 @@ module.exports = {
         { from: 'node_modules/bootstrap/dist/css/bootstrap.min.css', to: 'libraryes' },
         { from: 'node_modules/bootstrap/dist/js/bootstrap.min.js', to: 'libraryes'},
         { from: 'node_modules/jquery/dist/jquery.min.js', to: 'libraryes'},
-        { from: 'node_modules/jquery.easing/jquery.easing.min.js', to: 'libraryes'}
+        { from: 'node_modules/jquery.easing/jquery.easing.min.js', to: 'libraryes'},
+        { from: 'node_modules/scrollreveal/dist/scrollreveal.min.js', to: 'libraryes'}
       ],
     }),
   ],
